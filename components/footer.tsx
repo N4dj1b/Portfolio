@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <h3 className="mb-4 text-lg font-semibold">Mohamed Nadjib Taleb</h3>
             <p className="text-muted-foreground">
-              Full-Stack Web Developer passionate about creating amazing digital experiences.
+              Software Developer passionate about creating amazing digital experiences.
             </p>
           </div>
 

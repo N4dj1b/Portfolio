@@ -58,7 +58,7 @@ const projects = {
       "Emoji support and message reactions",
     ],
     githubUrl: "https://github.com/N4dj1b/Realtime-Chat",
-    liveUrl: "https://example.com",
+    liveUrl: "https://mychat1pp.netlify.app/",
     challenges:
       "Implementing real-time messaging with WebSockets was a significant challenge. I overcame this by using Firebase's real-time database and authentication features, which simplified the process of managing user sessions and message delivery.",
     outcome:
@@ -71,7 +71,7 @@ const projects = {
     longDescription:
       "This weather dashboard provides comprehensive weather information with beautiful visualizations, location-based forecasts, and historical data analysis. The application features interactive charts, maps, and a clean, intuitive interface that works seamlessly across all devices.",
     image: "/placeholder.svg?height=400&width=800",
-    technologies: ["Vue.js", "Chart.js", "Weather API", "Tailwind CSS", "Vuex"],
+    technologies: ["React", "OpenWeatherMap API", "CSS"],
     features: [
       "Current weather conditions",
       "7-day weather forecast",
@@ -96,7 +96,7 @@ const projects = {
     longDescription:
       "This platform allows users to explore various tours, book them online, and leave reviews. It features a user-friendly interface, secure payment processing, and an admin dashboard for managing tours and user feedback.",
     image: "/placeholder.svg?height=400&width=800",
-    technologies: ["Node.js", "Express", "MongoDB", "Pug"],
+    technologies: ["Node.js", "Express", "MongoDB", "Pug", "Stripe", "Mapbox GL"],
     features: [
       "Tour listings with detailed descriptions",
       "User authentication and profile management",
@@ -211,7 +211,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           <div className="grid gap-8 mb-8 md:grid-cols-2">
             <Card>
               <CardHeader>
-                <CardTitle>Project Overview</CardTitle>
+                <CardTitle>Project Purpose and Goal</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">

@@ -10,8 +10,14 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Mail, MapPin, Phone } from "lucide-react"
 
+type FormData = {
+  name: string
+  email: string
+  message: string
+}
+
 export function Contact() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
     message: "",
@@ -25,10 +31,13 @@ export function Contact() {
     setFormData({ name: "", email: "", message: "" })
   }
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target
     setFormData((prev) => ({
       ...prev,
-      [e.target.name]: e.target.value,
+      [name]: value,
     }))
   }
 
@@ -40,7 +49,7 @@ export function Contact() {
 
           <div className="grid gap-12 md:grid-cols-2">
             <div>
-              <h3 className="mb-6 text-2xl font-semibold">Let's work together</h3>
+              <h3 className="mb-6 text-2xl font-semibold">Let's build something together</h3>
               <p className="mb-8 text-muted-foreground">
                 I'm always interested in new opportunities and exciting projects. Whether you have a question or just
                 want to say hi, feel free to reach out!

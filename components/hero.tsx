@@ -10,10 +10,10 @@ export function Hero() {
     >
       <div className="container px-4 mx-auto text-center sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <h1 className="mb-6 text-4xl font-bold sm:text-6xl lg:text-7xl text-foreground">
-            Hi, I'm <span className="text-primary">Mohamed Nadjib Taleb</span>
+          <h1 className="mb-6 mt-6 text-4xl font-bold sm:text-6xl lg:text-7xl text-foreground">
+            Hi, I'm <span className="text-primary">Nadjib</span>
           </h1>
-          <p className="mb-8 text-xl sm:text-2xl text-muted-foreground">Full-Stack Web Developer</p>
+          <p className="mb-8 text-xl sm:text-2xl text-muted-foreground">Software Developer</p>
           <p className="max-w-2xl mx-auto mb-12 text-lg text-muted-foreground">
             I create beautiful, responsive, and user-friendly web applications using modern technologies. Let's build
             something amazing together.

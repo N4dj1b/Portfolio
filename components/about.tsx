@@ -14,6 +14,7 @@ export function About() {
                 I'm a passionate full-stack web developer with over 5 years of experience creating digital solutions
                 that make a difference. I love turning complex problems into simple, beautiful, and intuitive designs.
               </p>
+              <p className="text-lg text-muted-foreground mb-6">I'm a 20 year old 4th year computer science student at ESI-SBA</p>
               <p className="text-lg text-muted-foreground mb-6">
                 When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
                 or sharing my knowledge through blog posts and mentoring.
